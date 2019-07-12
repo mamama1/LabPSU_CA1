@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,8.6.3*%
+%TF.CreationDate,2019-07-12T15:56:27Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Jarvis Gruber <azzurro@ne-mail.net>*%
+%TJ.B_ID,Netzteil_CA1*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,56.000000*%
+%TJ.B_Size_Y,77.500000*%
+M02*
