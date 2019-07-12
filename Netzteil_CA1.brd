@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -192,34 +192,22 @@
 <text x="55.40375" y="9.04875" size="0.8128" layer="25" rot="R90">Netzteil_CA1 v1.0
 2019, by azzurro@ne-mail.net</text>
 <polygon width="0.2032" layer="29">
-<vertex x="44.60875" y="74.77125"/>
-<vertex x="47.14875" y="74.77125"/>
-<vertex x="47.14875" y="62.70625"/>
-<vertex x="49.2125" y="60.6425"/>
-<vertex x="49.2125" y="60.0075"/>
+<vertex x="41.275" y="74.6125"/>
+<vertex x="43.815" y="74.6125"/>
+<vertex x="43.815" y="58.26125"/>
+<vertex x="49.2125" y="52.86375"/>
 <vertex x="49.2125" y="43.65625"/>
 <vertex x="47.14875" y="41.5925"/>
-<vertex x="47.14875" y="30.1625"/>
 <vertex x="47.14875" y="28.41625"/>
-<vertex x="48.10125" y="27.46375"/>
 <vertex x="48.41875" y="27.14625"/>
-<vertex x="48.41875" y="26.19375"/>
 <vertex x="48.41875" y="25.24125"/>
 <vertex x="45.87875" y="25.24125"/>
-<vertex x="45.87875" y="26.035"/>
 <vertex x="45.87875" y="26.19375"/>
-<vertex x="44.92625" y="27.14625"/>
 <vertex x="44.60875" y="27.46375"/>
-<vertex x="44.60875" y="28.09875"/>
-<vertex x="44.60875" y="37.1475"/>
 <vertex x="44.60875" y="42.545"/>
-<vertex x="46.51375" y="44.45"/>
 <vertex x="46.6725" y="44.60875"/>
-<vertex x="46.6725" y="45.4025"/>
-<vertex x="46.6725" y="59.69"/>
-<vertex x="46.355" y="60.0075"/>
-<vertex x="44.60875" y="61.75375"/>
-<vertex x="44.60875" y="64.77"/>
+<vertex x="46.6725" y="51.91125"/>
+<vertex x="41.275" y="57.30875"/>
 </polygon>
 <polygon width="0.2032" layer="29">
 <vertex x="46.19625" y="17.93875"/>
@@ -1320,7 +1308,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="36.305" y="71.59625" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="B1" library="neumluc" package="GBU4S" value="GBU4" x="34.925" y="74.13625" smashed="yes">
-<attribute name="NAME" x="44.7675" y="71.15175" size="0.8128" layer="25" ratio="10"/>
+<attribute name="NAME" x="44.7675" y="63.373" size="0.8128" layer="25" ratio="10"/>
 <attribute name="OC_MOUSER" value="833-GBU4JL-BP" x="34.925" y="74.13625" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="32.385" y="77.18425" size="1.778" layer="27" ratio="10"/>
 </element>
