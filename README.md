@@ -5,7 +5,7 @@ Welcome to my "CheapAss 1" Lab PSU project, which is based on a TIP3055 power tr
 
 Specs:<br />
 0 - 24V output voltage in 100 mV steps (CV mode)<br />
-0 - 1A output current in 10 mA steps (CC mode)<br />
+0 - 1A output current in 1 mA steps (CC mode)<br />
 Around 1% accuracy<br />
 Dual 12 Bit DAC (MCP4922)<br />
 Precision 4.096V voltage reference for the DAC and Atmega-integrated ADC (MCP1541)<br />
