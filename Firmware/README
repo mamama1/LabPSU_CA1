@@ -1,0 +1,2 @@
+Written using VSCode and PlatformIO.
+Use an ISP programmer to flash, check settings in platformio.ini to match your environment.
