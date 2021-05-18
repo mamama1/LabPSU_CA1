@@ -1,0 +1,50 @@
+PSU-CA1 v1.2a Instruktionen
+===================================
+
+1. 3D Druck
+-----------
+Zuerst sollte das Frontpanel, das Backpanel sowie die Buttons gedruckt werden. Während der Drucker beschäftigt ist, können die PCBs bestückt und gelötet werden.
+
+2. Mainboard 
+------------
+Achtung: JST Buchsen für onboard Stromversorgung (+5V, VSS, +27) nur bestücken, falls nicht direkt Leitungen ohne Stecker verlötet werden sollen.
+Das unbestückte PCB in Gehäuseunterschale legen und mit den Randschrauben fixieren.
+Löcher für die mittleren Mainboardschrauben anzeichnen und bohren.
+Das unbestückte PCB wieder ausbauen.
+Anhand Designatoren bestücken, Standardvorgehensweise beachten (niedrige und SMD Bauteile zuerst, dann höhere und Durchsteckkomponenten).
+Transformatoren zuletzt bestücken und verschrauben (großer Transformator: M3x8mm, kleiner Transformator: Selbstschneidend UTS No4x6.5mm)
+Kühlkörper und Lötstifte für 230VAC Eingang mit reichlich(!) Lot fixieren.
+Isolations-/Wärmeleitpad zwischen TIP3055 und Kühlkörper keinesfalls vergessen, sonst Kurzschluss über Kühlkörper mit Masse!
+Kühlkörper Clip für TIP3055 einsetzen und fixieren.
+
+3. Frontpanel
+-------------
+Anhand Designatoren bestücken, Standardvorgehensweise beachten (niedrige und SMD Bauteile zuerst, dann höhere und Durchsteckkomponenten).
+Display zuletzt bestücken und verlöten!
+Kippschalter einsetzen und Bananendoppelbuchse am Frontpanel verschrauben sowie Lightpipes einsetzen.
+
+4. Kabel
+--------
+2x 18cm (rot und schwarz) AWG14 bzw. 1,5mm2 Kabel an beiden Enden mit isolierten Flachsteckhülsen vercrimpen
+2x 12cm (rot und schwarz) AWG14 bzw. 1,5mm2 Kabel an beiden Enden mit isolierten Flachsteckhülsen vercrimpen
+2x 14cm (rot und schwarz) AWG14 bzw. 1,5mm2 Kabel an einem Ende mit Kabelschuhen mit M5 Öse vercrimpen und am anderen Ende mit Würth 691311500002 Klemme verschrauben (auf Polarität am Mainboard für "OUT" Klemme achten)
+1x 20cm Flachbandkabel mit Steckern vercrimpen
+1x 7cm (rot und schwarz) AWG24 bzw. 0,5mm2 Kabel vorbereiten
+1x 12cm (gelb und schwarz) AWG24 bzw. 0,5mm2 Kabel vorbereiten
+
+Die AWG24 Kabel für onboard Spannungsversorgung 5V (rot/schwarz) und 27V(gelb/schwarz) für JST crimpen oder direkt verlöten (auf richtige Pinbelegung laut Designatoren achten).
+
+
+5. Zusammenbau
+--------------
+1) IEC Buchse 6200.2200 mit M3x10 Maschinen-Senkkopfschrauben im Backpanel verschrauben.
+2) 60x60mm Lüfter am Backpanel verschrauben, Drahtlänge zur Buchse am Mainboard beachten. Lüfterleitungen nicht den Kühlkörper berühren lassen.
+3) Frontpanel PCB mit M3x5mm Zylinder- oder Linsenkopfschrauben am gedruckten Frontpanel verschrauben. Vorher Buttons in die Löcher einsetzen.
+4) Mainboard in Gehäuseunterschale einsetzen und mit den äußeren sowie den mittleren Schrauben fixieren. Abstandshalter in der Mitte nicht vergessen. In der Mitte sind Nylonschrauben und Nylonmuttern zu verwenden um die elektrische Isolation nach außen zu gewährleisten!
+5) 7cm und 12cm Leitungen (AWG24) für onboard Spannungsversorgung anschließen.
+6) 2x 18cm AWG14 Leitungen mit Flachsteckhülsen an der IEC Buchse anschließen. Das jeweils andere Ende am Frontpanel Kippschalter anschließen
+7) 2x 12cm AWG14 Leitungen mit Flachsteckhülsen am Frontpanel Kippschalter anschließen und korrekte Funktion durchmessen (Trennung von L und N von der IEC Buchse ausgehend). Dann an die Lötstifte am Mainboard anschließen (L und N).
+8) 2x 14cm AWG14 Leitungen an den Bananenbuchsen verschrauben und am Mainboard anschließen. Auf Polarität achten!
+9) Flachbandkabel am Mainboard und am Frontpanel anschließen. Die rote Ader muss jeweils auf der Seite von Pin 1 liegen!
+10) Lüfterkabel am Mainboard anschließen.
+11) Sicherungen am Mainboard und in der IEC Buchse einsetzen.
